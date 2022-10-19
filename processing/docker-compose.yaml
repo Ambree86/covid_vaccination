@@ -1,0 +1,8 @@
+version: "0.1"
+services:
+  processing:
+    build: ./processing/
+  postgre:
+    image: "postgres:latest"
+    ports:
+      - "5432:5432"
